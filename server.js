@@ -13,7 +13,7 @@ const TaskRoute = require("./Routes/TaskRouter")
 const ColumnRoute = require("./Routes/ColumnRoute")
 
 app.get("/", (req, res) => {
-    res.send("Welcome to Todo List by eWise Solutions.")
+    res.send("Welcome to Todo List by eWise Solutions")
 })
 app.use("/path", PathRoute)
 app.use("/task", TaskRoute)
